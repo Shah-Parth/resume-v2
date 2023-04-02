@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "website-b674d"
-  }
+  },
+  "targets": {
+    "wedding-203b2": {
+      "hosting": {
+        "main": [
+          "website-b674d"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
