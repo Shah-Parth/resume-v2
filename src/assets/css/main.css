@@ -1,0 +1,14 @@
+@import "@/assets/css/base.css";
+
+.font-cursive {
+    font-family: 'Whitelisa', 'WindSong', 'Cursive', cursive;
+}
+
+.font-sans {
+    font-family: 'Raleway','Roboto', sans-serif;
+}
+
+.font-serif {
+    font-family: 'Merriweather','Roboto Slab', serif;
+}
+
