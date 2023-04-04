@@ -1,7 +1,10 @@
 <template>
-  <div class="flex flex-col lg:flex-row justify-evenly">
+  <div v-show="isLoading" class="flex justify-center items-center">
+    <p class="animate-pulse delay-100">Loading...</p>
+  </div>
+  <div v-show="!isLoading" class="flex flex-col lg:flex-row justify-evenly">
     <section class="justify-center space-y-8">
-      <h1 class="relative text-7xl font-extralight">Experience</h1>
+      <h1 class="relative text-6xl font-extralight">Experience</h1>
       <ol
         v-for="(job, id) in jobs"
         :key="id"
@@ -32,7 +35,7 @@
       </ol>
     </section>
     <section class="justify-center space-y-8">
-      <h1 class="relative text-7xl font-extralight">Education</h1>
+      <h1 class="relative text-6xl font-extralight">Education</h1>
       <ol
         v-for="(edu, id) in education"
         :key="id"
@@ -69,9 +72,7 @@ import { storeToRefs } from "pinia";
 import { onMounted } from "vue";
 
 const about = aboutStore();
-const { jobs, education, jobLoading, educationLoading } = storeToRefs(
-  aboutStore()
-);
+const { jobs, education, isLoading } = storeToRefs(aboutStore());
 
 onMounted(() => {
   about.fetchJobs();

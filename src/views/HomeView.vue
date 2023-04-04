@@ -1,10 +1,14 @@
 <template>
   <div class="flex flex-col lg:flex-row justify-evenly">
-    <section class="flex flex-col w-full justify-center space-y-4">
-      <img src="@/assets/splash.svg" alt="Parth Shah" class="" />
+    <section class="flex flex-col w-full justify-center px-8 space-y-4">
+      <img
+        src="@/assets/parth.png"
+        alt="Parth Shah"
+        class="rounded-md grayscale -rotate-6 hover:grayscale-0"
+      />
     </section>
-    <section class="flex flex-col w-full space-y-4">
-      <h1 class="font-extralight text-7xl">
+    <section class="flex flex-col w-full justify-center px-8 space-y-4">
+      <h1 class="font-extralight text-6xl">
         From Concept To Code, Scalable Solutions That Stand The Test
       </h1>
       <p class="font-extralight text-2xl leading-loose">
