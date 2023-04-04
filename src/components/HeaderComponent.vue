@@ -8,7 +8,7 @@
       <div
         class="h-14 w-14 flex justify-center items-center text-4xl bg-pink-900 dark:bg-yellow-400 text-slate-200 dark:text-gray-900"
       >
-        S.
+        S
       </div>
     </RouterLink>
     <nav
