@@ -13,7 +13,7 @@
     "@fortawesome/vue-fontawesome": "^3.0.3",
     "@heroicons/vue": "^2.0.17",
     "core-js": "^3.8.3",
-    "firebase": "^9.19.1",
+    "firebase": "^10.12.2",
     "pinia": "^2.0.33",
     "vue": "^3.2.13",
     "vue-class-component": "^8.0.0-0",
